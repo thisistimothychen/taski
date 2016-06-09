@@ -31,6 +31,9 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# handles authentication
+gem 'devise'
+
 # handles file uploads
 gem 'carrierwave'
 # run filters, autosizing, etc.
